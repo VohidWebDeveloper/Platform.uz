@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  /* border: 2px solid red; */
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar {
+  /* border: 2px solid blue; */
+  width: 20%;
+  min-height: 100vh;
+  background-color: #3D5BF1;
+  padding: 20px 30px;
+}
+
+.sidebar .dashboard {
+  /* border: 1px solid red; */
+  padding: 20px 0;
+  font-weight: bold;
+  font-size: 24px;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.sidebar .search {
+  /* border: 1px solid red; */
+  margin: 20px 0;
+  display: flex;
+  position: relative;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.sidebar .search i {
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  color: #ccc;
+}
+
+.sidebar .search input {
+  padding: 10px 40px;
+  border-radius: 25px;
+  font-size: 18px;
+  background-color: #5771f5e7;
+  color: #ccc;
+  outline: none;
+}
+
+.sidebar .sidebar-nav {
+  /* border: 1px solid red; */
+  margin-bottom: 20px;
+}
+
+.sidebar .sidebar-nav ul {
+  /* border: 1px solid red; */
+  list-style-type: none;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.sidebar .sidebar-nav ul li {
+  padding: 15px;
+  font-size: 17px;
+  /* border: 1px solid red; */
+}
+
+.sidebar .sidebar-nav ul li a:hover {
+  cursor: pointer;
+}
+
+
+.sidebar .sidebar-nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.sidebar .sidebar-nav ul li a i {
+  margin-right: 15px;
+}
+
+.sidebar .admin {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  font-family: sans-serif;
+  color: #fff;
+  margin-top: 50px;
+}
+
+.sidebar .admin .admin-name .last {
+  font-size: 13px;
+}
+
+.sidebar .admin .admin-icon {
+  /* border: 1px solid red; */
+  width: 40px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3850D2;
+  font-size: 20px;
+  border-radius: 12px;
+  color: rgb(222, 213, 213);
+}
+
+.about {
+  /* border: 2px solid red; */
+  width: 80%;
+  padding: 30px;
+}
+
+.start-page .title {
+  font-family: sans-serif;
+}
+
+
+.show-search {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.show-search .show-right {
+  text-align: end;
+}
+
+.show-search .shows #show {
+  width: 100px;
+}
+
+.tables {
+  margin: 30px 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2
+}
+
+.show-more {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.btns {
+  margin-top: 20px;
+}
+
+
+/* ========= SELECT PAGE ======= */
+
+.select-page {
+  border: 1px solid red;
+  width: 100%;
+  min-height: 100vh;
+  background: url('https://static.e-auksion.uz/images/home-bg-statistics.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #3850D2;
+  padding: 30px 0;
+}
+
+.page-title {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-title .img-content {
+  /* border: 2px solid green; */
+  width: 240px;
+  height: 100px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-content img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+
+.logo-name {
+  width: 80%;
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+}
+
+.select-content {
+  /* border: 1px solid red; */
+  width: 55%;
+  min-height: 10vh;
+  margin: 10px auto;
+  border-radius: 0px;
+  background-color: #fff;
+  box-shadow: 0 4px 20px rgba(235, 237, 239, 0.715);
+}
+
+.select-option {
+  display: flex;
+  justify-content: space-between;
+}
+
+.select-content .left {
+  width: 50%;
+}
+
+.select-content .right {
+  width: 50%;
+}
+
+/* ========= SELECT PAGE ======= */
+
+
+/* ========= PERSON PAGE ======= */
+
+
+.add {
+  /* border: 1px solid red; */
+  width: 60%;
+  min-height: 40vh;
+  margin: 10px auto;
+  position: relative;
+}
+
+
+/* ========= PERSON PAGE ======= */
